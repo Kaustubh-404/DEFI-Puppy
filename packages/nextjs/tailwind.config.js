@@ -18,8 +18,8 @@ module.exports = {
           neutral: "#212638",
           "neutral-content": "#ffffff",
           "base-100": "#ffffff",
-          "base-200": "#f4f8ff",
-          "base-300": "#DAE8FF",
+          "base-200": "#121212",
+          "base-300": "#121212",
           "base-content": "#212638",
           info: "#93BBFB",
           success: "#34EEB6",
@@ -58,7 +58,7 @@ module.exports = {
           warning: "#FFCF72",
           error: "#FF8863",
 
-          "--rounded-btn": "9999rem",
+          "--rounded-btn": "50rem",
 
           ".tooltip": {
             "--tooltip-tail": "6px",
