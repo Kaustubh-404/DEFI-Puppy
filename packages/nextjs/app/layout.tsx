@@ -5,17 +5,17 @@ import "~~/styles/globals.css";
 import { getMetadata } from "~~/utils/scaffold-eth/getMetadata";
 
 export const metadata = getMetadata({
-  title: "Defi Puppy",
-  description: "Built with 🏗 Scaffold-ETH 2",
+  title: "Defi Buddy",
+  description: "for Neo X",
 });
 
 const ScaffoldEthApp = ({ children }: { children: React.ReactNode }) => {
   return (
     <html suppressHydrationWarning>
-      <body>
-        <ThemeProvider enableSystem defaultTheme="light">
+      <body className="bg-[#121212]">
+        {/* <ThemeProvider  > */}
           <ScaffoldEthAppWithProviders>{children}</ScaffoldEthAppWithProviders>
-        </ThemeProvider>
+        {/* </ThemeProvider> */}
       </body>
     </html>
   );

@@ -1,14 +1,14 @@
-# 🐕 Defi Puppy | 3D NFT
+# 🐕 Defi Buddy | 3D NFT
 
-Defi Puppy website: https://defi-puppy.vercel.app/
+Defi Buddy website: https://defi-Buddy.vercel.app/
 
 ## Description
 
-Introducing your new virtual companion: a Defi puppy that you can mint (3D NFT) and bring to life! Once minted, your Defi puppy can roam around your space, interact with you, and join in on various activities.
+Introducing your new virtual companion: a Defi Buddy that you can mint (3D NFT) and bring to life! Once minted, your Defi Buddy can roam around your space, interact with you, and join in on various activities.
 
 ![image](https://github.com/user-attachments/assets/f9c1c523-dec8-4567-abcc-bdef5fc827b9)
 
-![defi puppy clip](https://github.com/user-attachments/assets/1341e62e-5afc-4dea-8297-a04a754299d7)
+![defi Buddy clip](https://github.com/user-attachments/assets/1341e62e-5afc-4dea-8297-a04a754299d7)
 
 ## Requirements
 
@@ -25,8 +25,8 @@ To get started with this app, follow the steps below:
 1. Clone this repo & install dependencies
 
 ```
-git clone https://github.com/kinghonest45/Defi_Puppy
-cd Defi_Puppy
+git clone https://github.com/kinghonest45/Defi_Buddy
+cd Defi_Buddy
 yarn install
 ```
 
@@ -58,7 +58,7 @@ Visit your app on: `http://localhost:3000`. You can interact with your smart con
 - Introduce customizable options for a variety of pets.
 - Add unique animations for each pet to enhance user engagement.
 - Display the last feeding time and incorporate a feature where pets can potentially die if not fed, introducing a hunger mechanic.
-- Implement a leveling system where pets start as babies (e.g., a puppy) and grow over time, reaching new stages of development (e.g., after 5-10 days of regular feeding, the pet matures).
+- Implement a leveling system where pets start as babies (e.g., a Buddy) and grow over time, reaching new stages of development (e.g., after 5-10 days of regular feeding, the pet matures).
 - Add the ability to transfer pet ownership temporarily/permanently, allowing others to take care of pets if the owner is unavailable to feed them.
 
 ## License

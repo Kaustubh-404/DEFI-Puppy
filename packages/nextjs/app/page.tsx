@@ -18,6 +18,9 @@ const Home: NextPage = () => {
   });
   const router = useRouter();
 
+//image change shlok
+
+
   const { data: imageURI } = useScaffoldReadContract({
     contractName: "ARPet",
     functionName: "imageURI",
@@ -40,22 +43,22 @@ const Home: NextPage = () => {
   return (
     <>
       <div className="flex items-center flex-col flex-grow pt-10 h-96 ">
-        <h1 className="text-3xl">Defi Puppy</h1>
+        <h1 className="text-5xl font-serif font-bold">Defi Buddy</h1>
 
         {!hasNFT && (
           <h1 className="w-60 lg:w-96 text-sm pt-0">
-            Introducing your new virtual companion: a Defi Puppy that you can mint and bring to life! Once minted, your Defi
-            Puppy can roam around your space, interact with you, and join in on various activities.
+            Introducing your new virtual companion: a Defi Buddy that you can mint and bring to life! Once minted, your Defi
+            Buddy can roam around your space, interact with you, and join in on various activities.
           </h1>
         )}
 
         <div>
-          <Image src={`${FILE_URL}/${imageURI}`} width={500} height={500} alt="NFT" className="mt-3 w-44 rounded-md" />
+          <Image src={`${FILE_URL}/${imageURI}`} width={500} height={500} alt="NFT" className="mt-3 w-44 " />
           <div className="flex flex-col mx-auto">
             <p className="mb-2">{hasNFT ? `` : `Price: ${MINT_PRICE} ETH`}</p>
             {hasNFT ? (
               <button
-                className="btn btn-primary"
+                className="btn btn-primary rounded font-bold"
                 onClick={() => {
                   router.push("/pet");
                 }}
