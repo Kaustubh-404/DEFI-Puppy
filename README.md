@@ -1,4 +1,4 @@
-**Defi Puppy: Your 3D NFT Virtual Companion**
+**Defi Buddy: Your 3D NFT Virtual Companion**
 
 **Introduction**
 
