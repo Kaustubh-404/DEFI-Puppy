@@ -44,7 +44,7 @@ yarn deploy
 yarn start
 # Visit `http://localhost:3000` to access your app and interact with the smart contract through the "Debug Contracts" page.
 # The app configuration resides in `packages/nextjs/scaffold.config.ts`.
-
+```
 ## Video Demo
 
 [![Watch the video](https://img.youtube.com/vi/7aipePKkAV4/maxresdefault.jpg)](https://www.youtube.com/watch?v=7aipePKkAV4)
