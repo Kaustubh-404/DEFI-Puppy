@@ -44,3 +44,18 @@ yarn deploy
 yarn start
 # Visit `http://localhost:3000` to access your app and interact with the smart contract through the "Debug Contracts" page.
 # The app configuration resides in `packages/nextjs/scaffold.config.ts`.
+
+## Video Demo
+
+[![Watch the video](https://img.youtube.com/vi/7aipePKkAV4/maxresdefault.jpg)](https://www.youtube.com/watch?v=7aipePKkAV4)
+
+Click the image above to watch the full video demo of **Defi Buddy** in action!
+
+## Future Ideas
+
+- **Diverse Pet Options:** Introduce customizable features for a menagerie of virtual companions.
+- **Animation Enhancements:** Design unique animations for each pet, boosting user engagement.
+- **Hunger Mechanic:** Integrate a feeding system with consequences for neglected pets, creating a sense of responsibility.
+- **Leveling System:** Implement a system where pets evolve through stages (e.g., from buddy to adult).
+- **Ownership Transfer:** Enable temporary or permanent ownership transfers for collaborative pet care.
+
